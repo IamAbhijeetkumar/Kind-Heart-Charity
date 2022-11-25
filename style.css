@@ -1,0 +1,593 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    max-width: 100vw;
+    height: 6vh;
+    background-color: red;
+}
+
+.container .left {
+    display: flex;
+    width: 70vw;
+    height: 6vh;
+    background-color: rgb(22, 187, 173);
+    color: white;
+}
+
+.container .right {
+    display: flex;
+    width: 30vw;
+    height: 6vh;
+    background-color: rgb(22, 187, 173);
+    color: white;
+}
+
+.left ul li {
+    text-align: center;
+    list-style: none;
+    float: left;
+}
+
+.left ul li a {
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.left ul li a i {
+    padding: 0px 5px;
+}
+
+.right ul li {
+    padding-left: 5px;
+    text-align: center;
+    list-style: none;
+    float: left;
+}
+
+.right ul li a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    max-width: 100vw;
+    height: 12vh;
+    background-color: rgb(248, 252, 252);
+}
+
+.center1 {
+    display: flex;
+    float: left;
+    width: 35vw;
+    height: 12vh;
+    background-color: rgb(248, 252, 252);
+}
+
+.center1 img {
+    margin: 5px 15px 5px 70px;
+    width: 80px;
+    height: 80px;
+}
+
+.center1 h1 {
+    margin: 15px 0px 0px 5px;
+    border: none;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+.center1 p {
+    margin: 0px 0px 0px 5px;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    font-size: 15px;
+}
+
+.center2 {
+    display: flex;
+    max-width: 65vw;
+    height: 12vh;
+    background-color: rgb(248, 252, 252);
+}
+
+.center .center2 ul li {
+    padding: 17px 15px;
+    float: left;
+    color: rgba(128, 128, 128, 0.604);
+    list-style: none;
+}
+
+.center .center2 ul li a {
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+    font-size: 18px;
+}
+
+.center .center2 button {
+    margin: 20px 10px 20px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 5px 30px;
+    background-color: rgb(248, 252, 252);
+    border: 2px solid grey;
+}
+
+.center .center2 button a {
+    text-decoration: none;
+    color: grey;
+}
+
+section .container1 {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.763);
+    /* background-image: url(); */
+}
+section .container1 img{
+    width:98.5vw;
+    height:90vh;
+    margin: 0 0 0 3px ;
+    padding: 0;
+}
+/* section .container1 .heart {
+    max-width: 100vw;
+    height: 80vh;
+    padding: 70vh 0 5vh 80vw;
+}
+
+.heart h2 {
+    padding: 0px 0px 5px 0px;
+    color: rgb(106, 106, 106);
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px 0px 5px 0px;
+}
+
+.heart p {
+    padding: 0px 0px 5px 0px;
+    color: grey;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0px 0px 5px 0px;
+} */
+
+section .container2 {
+    max-width: 100vw;
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.763);
+    /* background-image: url(); */
+}
+
+section .container2 .head {
+    max-width: 100vw;
+    height: 14vh;
+    background-color: rgba(255, 255, 255, 0.763);
+    /* background-image: url(); */
+}
+
+section .container2 .head h1 {
+    margin: 0;
+    padding: 3.5vh 30vw 3vh 30vw;
+    color: rgb(106, 106, 106);
+    font-size: 35px;
+    font-weight: 900;
+}
+
+section .container2 .box {
+    padding: 0 10vw 0 10vw;
+    display: flex;
+    max-width: 100vw;
+    height: 41vh;
+    background-color: rgba(255, 255, 255, 0.763);
+}
+
+section .container2 .box .card {
+    align-items: center;
+    margin: 4vh 2.5vw 0 2.5vw;
+    width: 15vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.763);
+    border-radius: 1vw;
+}
+
+section .container2 .box .card img {
+    margin: 5px 30px 0 30px;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+}
+
+section .container2 .box .card:hover {
+    box-shadow: rgb(22, 187, 173) 0px 5px 15px;
+}
+
+section .container2 .box .card h4 {
+    color: rgb(22, 187, 173);
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.container3 {
+    display: flex;
+    max-width: 100vw;
+    padding: 10vh;
+    height: 80vh;
+    background-color: rgb(236, 255, 255);
+}
+
+.container3 .grid {
+    margin: auto;
+    width: 40vw;
+    height: 80vh;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.container3 .grid .grid1 {
+    margin-top: 0;
+    padding: 0;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 40vw;
+    height: 40vh;
+    background-color: rgba(255, 255, 255, 0.763);
+}
+
+.container3 .grid .grid2 {
+    display: inline-flex;
+    margin-top: 3vh;
+    padding: 0;
+    border-radius: 30px;
+    width: 40vw;
+    height: 35vh;
+    background-color: transparent;
+}
+
+.container3 .grid .grid2 .grid3 {
+    display: table-column;
+    margin: 0px 11px 0px 0px;
+    padding: 0;
+    border-radius: 30px;
+    width: 19vw;
+    height: 35vh;
+    background-color: rgba(255, 255, 255, 0.763);
+}
+
+.container3 .grid .grid2 .grid4 {
+    display: table-column;
+    margin: 0px 0px 0px 12px;
+    padding: 0;
+    border-radius: 30px;
+    width: 19vw;
+    height: 35vh;
+    background-color: rgba(255, 255, 255, 0.763);
+}
+
+.container3 .grid img {
+    width: 40vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.container3 .grid .grid1 h1 {
+    margin: 25px 0px 10px 25px;
+    color: rgb(106, 106, 106);
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+.container3 .grid .grid1 h4 {
+    margin: 0px 0px 10px 25px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(22, 187, 173);
+}
+
+.container3 .grid .grid1 p {
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 100px 10px 25px;
+}
+
+.container3 .grid .grid2 .grid3 h4 {
+    color: rgb(22, 187, 173);
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px 50px 20px 50px;
+}
+
+.container3 .grid .grid2 .grid3 p {
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 20px 0px 20px;
+}
+
+.container3 .grid .grid2 .grid3 ul {
+    color: grey;
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.container3 .grid .grid2 .grid4 h1 {
+    color: rgb(22, 187, 173);
+    font-size: 45px;
+    font-weight: 800;
+    margin: 25px 0px 0px 50px;
+}
+
+.container3 .grid .grid2 .grid4 p {
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 25px 10px 50px;
+}
+
+section .container4 {
+    margin: 0;
+    display: flex;
+    padding: 15vh 20vw 15vh 20vw;
+    max-width: 100vw;
+    height: 60vh;
+    background-color: rgb(248, 252, 252);
+}
+
+section .container4 .card2 {
+    display: inline-flex;
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+    box-shadow: rgba(17, 40, 38, 0.867) 0px 2px 4px 0px, rgba(19, 37, 35, 0.971) 0px 2px 16px 0px;
+    display: flex;
+    max-width: 27vw;
+    height: 60vh;
+    background-color: rgb(248, 252, 252);
+}
+
+section .container4 .card2 img {
+    width: 27vw;
+    height: 60vh;
+}
+
+section .container4 .about {
+    margin: 0px 30px 0px 30px;
+    width: 30vw;
+    height: 60vh;
+    /* border:2px solid black; */
+    background-color: rgb(248, 252, 252);
+}
+
+section .container4 .about h1 {
+    color: rgb(106, 106, 106);
+    font-size: 45px;
+    font-weight: 800;
+    margin: 25px 0px 5px 25px;
+}
+
+section .container4 .about h5 {
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px 40px 25px;
+}
+
+section .container4 .about p {
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px 40px 25px;
+}
+
+section .container4 .about ul li {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+section .container4 .about ul li a {
+    list-style: none;
+    color: grey;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+section .container5 {
+    max-width:100vw;
+    margin: 0px;
+    height: 40vh;
+    padding: 10vh 20vw 0vh 20vw;
+    background-color: rgb(236, 255, 255);
+}
+section .container5 h1{
+    display:inline-flex;
+    color:rgb(106, 106, 106);
+    font-size: 45px;
+    font-weight: 800;
+    margin:0px 0px 0px 2vw;
+}
+section .container5 h4{
+    display: inline-flex;
+    color:grey;
+    padding:5vh 2vw 5vh 2vw;
+    font-size:20px;
+    font-weight: 500;
+}
+section .container5 button{
+    width:16vw;
+    margin-left: 1vw;
+    height:8vh;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color:whitesmoke;
+    background-color: rgb(106, 106, 106);
+    border:none;
+}
+section .container5 button:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+section .container6 {
+    margin: 0;
+    padding-left: 6.0vw;
+    padding-right: 6.0vw;
+    max-width: 100vw;
+    height: 120vh;
+    background-color: rgb(248, 252, 252);
+}
+
+section .container6 .couse {
+    max-width: 100vw;
+    margin: 0;
+    height: 15vh;
+    /* border: 2px solid black; */
+}
+
+section .container6 .couse h1 {
+    margin: 0;
+    color: rgb(106, 106, 106);
+    font-size: 45px;
+    font-weight: 800;
+    padding: 2vh 34vw 2vh 34vw;
+}
+
+
+section .container6 .our {
+    display: inline-flex;
+    max-width: 100vw;
+    height: 80vh;
+    margin: 0;
+}
+
+section .container6 .card3 {
+    margin: 0 2vw 0vh 0vw;
+    /* border: 1px solid black; */
+    max-width: 27vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 25px;
+}
+section .container6 .card3:hover{
+    box-shadow: rgba(17, 40, 38, 0.867) 0px 2px 4px 0px, rgba(19, 37, 35, 0.971) 0px 2px 16px 0px;
+}
+
+section .container6 .card3 img {
+    width: 27vw;
+    height: 35vh;
+    border-radius: 25px;
+}
+
+section .container6 .card3 h4 {
+    color: rgb(22, 187, 173);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 4vh 0vw 4vh 2vw;
+}
+
+section .container6 .card3 p {
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0vw 0 2vw;
+}
+
+section .container6 .card3 button {
+    background-color: rgb(100, 108, 129);
+    color: white;
+    width: 27vw;
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    height: 8vh;
+}
+section .container6 .card3 button:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.container7 {
+    display: flex;
+    max-width: 100vw;
+    height:120vh;
+    background-color: rgb(100, 108, 129);
+}
+.container7 h1{
+    padding-left: 8vw;
+    padding-top: 12vh;
+    font-size:45px;
+    color: whitesmoke;
+    font-weight: 800;
+}
+.container7 .form{
+    margin-left: 8vw;
+    width:38vw;
+    border-radius: 25px;
+    height:80vh;
+    background-color: white;
+}
+.container7 .form h1{
+    padding-top:5vh;
+    padding-bottom: 0vh;
+    padding-left:2vw;
+    color:black;
+    font-size: 35px;
+    font-weight: 800;
+}
+.container7 .form input{
+    margin-left:2vw;
+    border:none;
+    margin-top:1vw;
+    width:14.8vw;
+    height:7vh;
+    border-radius: 5px;
+    background-color: rgb(236, 255, 255);
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    color:grey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+}
+.container7 .form textarea{
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left:2vw;
+    padding-left: 2vw;
+    border:none;
+    margin-top:2vw;
+    background-color: rgb(236, 255, 255);
+    font-weight: 500;
+    color:grey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+}
+.container7 .form button{
+    width:35vw;
+    height:8vh;
+    background-color: rgb(100, 108, 129);
+    color:white;
+    margin:3vh 1vw 3vh 1vw;
+    border-radius: 50px;
+    border:none;
+    font-size: 25px;
+}
+.container7 .form button:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.container7 img{
+    margin:10vw 0vw 0vw 12vw;
+    display:flex;
+    width:25vw;
+    height:40vh;
+}
